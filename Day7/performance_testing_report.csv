@@ -1,0 +1,11 @@
+Test Case,Description,Expected Result,Actual Result,Pass/Fail,Severity,Comments
+Homepage Load Time,Measure the time taken for the homepage to load fully,Load time should be under 2 seconds,Homepage loaded in 1.9 seconds,Pass,Low,Performance within acceptable range
+Product Search Response Time,Test response time when searching for products,Response time should be under 1 second,Response time was 0.8 seconds,Pass,Low,Search functionality is optimized
+Add to Cart Response Time,Measure time taken to add items to the cart,Item should be added to cart within 2 seconds,Item added to cart in 1.5 seconds,Pass,Medium,Cart response is fast and reliable
+Checkout Page Load Time,Time taken to load the checkout page,Checkout page should load within 2 seconds,Checkout page loaded in 2 seconds,Pass,Medium,Checkout page performs as expected
+Payment Processing Time,Time taken for payment processing,Payment should process within 3 seconds,Payment processed in 2.8 seconds,Pass,High,Payment gateway response is efficient
+Database Query Performance,Evaluate database query execution speed,Database queries should execute under 500ms,Database queries executed in 450ms,Pass,Low,Database queries are optimized
+Concurrent Users Handling,Test site performance with 1000 concurrent users,Site should handle 1000 users without lag,Site handled 1000 users successfully,Pass,Critical,Site scales well for high traffic
+Image Load Time,Measure time taken to load product images,Images should load within 1 second,Images loaded in 0.9 seconds,Pass,Low,Image optimization is effective
+API Response Time,Evaluate response time of API calls,API calls should respond within 200ms,API calls responded in 190ms,Pass,Low,API is responsive under normal load
+Stress Test,Stress test the website with peak traffic,Site should remain functional under stress,Site remained functional under stress,Pass,Critical,Site is stable under peak load
